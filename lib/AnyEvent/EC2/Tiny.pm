@@ -1,6 +1,6 @@
 package AnyEvent::EC2::Tiny;
 {
-  $AnyEvent::EC2::Tiny::VERSION = '0.001';
+  $AnyEvent::EC2::Tiny::VERSION = '0.002';
 }
 # ABSTRACT: Tiny asynchronous (non-blocking) interface to EC2 using AnyEvent
 
@@ -60,7 +60,7 @@ sub send {
 
 1;
 
-
+__END__
 
 =pod
 
@@ -70,7 +70,7 @@ AnyEvent::EC2::Tiny - Tiny asynchronous (non-blocking) interface to EC2 using An
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 SYNOPSIS
 
@@ -207,7 +207,3 @@ This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-
-
-__END__
-
